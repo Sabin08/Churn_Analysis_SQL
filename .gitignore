@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor
+.vscode/
+.idea/
+*.iml
+
+# Python (if you add scripts)
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Database dumps (local testing)
+*.sql.gz
+*.dump
+*.bak
+
+# Logs
+*.log
+
+# Keep SQL and markdown, ignore everything else in root
+!*.sql
+!*.md
+!*.png
+!.gitignore
